@@ -10,7 +10,7 @@ export default function Page() {
         <AcmeLogo />
       </div>
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
-        <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
+        <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-50 md:w-2/5 md:px-20">
         <div
   className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent"
 />
@@ -31,15 +31,15 @@ export default function Page() {
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           <Image
             src="/hero-desktop.png"
-            width={1000}
-            height={760}
+            width={100}
+            height={100}
             className="hidden md:block"
             alt="Screenshots of the dashboard project showing desktop and mobile versions"
           />
           <Image
             src="/hero-mobile.png"
-            width={560}
-            height={620}
+            width={100}
+            height={100}
             className={'block md:hidden'}
             alt="Screenshots of the dashboard project showing desktop and mobile versions"
           />

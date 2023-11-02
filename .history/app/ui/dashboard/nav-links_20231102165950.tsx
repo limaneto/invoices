@@ -1,5 +1,3 @@
-'use client';
-
 import {
   UserGroupIcon,
   HomeIcon,
@@ -38,7 +36,7 @@ export default function NavLinks() {
               }
             )}
           >
-            <LinkIcon className={clsx("w-6", { 'bg-sky-100 text-blue-600': pathName === link.href })} />
+            <LinkIcon className="w-6" />
             <p className="hidden md:block">{link.name}</p>
           </Link>
         );
